@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jesús Aranda Martínez | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #9ca3af;
+        }
+
+        nav {
+            background: #1f2933;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #e5e7eb;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #111827;
+            border-left: 5px solid #38bdf8;
+            padding-left: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #38bdf8;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #111827;
+            color: #9ca3af;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .contact p {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jesús Aranda Martínez</h1>
+    <p>Estudiante de Informática · Programación · Ciberseguridad</p>
+</header>
+
+<nav>
+    <a href="#sobremi">Sobre mí</a>
+    <a href="#formacion">Formación</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+
+    <section id="sobremi">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy Jesús Aranda Martínez, estudiante de informática con un gran interés
+            en la programación y la ciberseguridad. Me gusta aprender nuevas tecnologías,
+            enfrentarme a retos técnicos y seguir mejorando mis habilidades en el
+            desarrollo de software y la seguridad informática.
+        </p>
+    </section>
+
+    <section id="formacion">
+        <h2>Formación</h2>
+        <ul>
+            <li>Sistemas Microinformáticos y Redes (SMR)</li>
+            <li>Desarrollo de Aplicaciones Multiplataforma (DAM)</li>
+            <li>Formación en programación y seguridad informática</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos / Trabajos</h2>
+        <ul>
+            <li>Prototipo desarrollado para el 1º Hackathon</li>
+            <li>Proyecto diseñado durante el curso</li>
+            <li>Proyectos prácticos realizados en el ciclo formativo</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">Java</div>
+            <div class="skill">PHP</div>
+            <div class="skill">Redes</div>
+            <div class="skill">Ciberseguridad</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>📞 Teléfono: 603 829 283</p>
+        <p>📧 Email: arandamartinezjesus@gmail.com</p>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 · Jesús Aranda Martínez · Portfolio Personal
+</footer>
+
+</body>
+</html>
